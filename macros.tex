@@ -1,0 +1,51 @@
+% !TEX root =  nips_dtfa.tex
+
+%% OPTIONAL MACRO DEFINITIONS
+% operators
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+
+% fractions, derivatives
+\newcommand{\pdff}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\fdff}[2]{\frac{\delta #1}{\delta #2}}
+\newcommand{\ifrac}[2]{#1 \:/\: #2}
+
+% conditional probability 
+\newcommand{\p}[2]{\ensuremath{p(#1 \mid #2)}}
+\newcommand{\q}[2]{\ensuremath{q(#1 \mid #2)}}
+\renewcommand{\d}[1]{\ensuremath{\!\!d#1 \:}}
+
+% vectors
+\renewcommand{\vec}[1]{\ensuremath{\boldsymbol{#1}}}
+\renewcommand{\v}[1]{\vec{#1}}
+\newcommand{\x}{\ensuremath{\v{x}}}
+\newcommand{\y}{\ensuremath{\v{y}}}
+\newcommand{\z}{\ensuremath{\v{z}}}
+\newcommand{\h}{\ensuremath{\v{\eta}}}
+\renewcommand{\u}{\ensuremath{u}}
+\renewcommand{\q}{\ensuremath{\theta}}
+\renewcommand{\l}{\ensuremath{\lambda}}
+\renewcommand{\t}{\ensuremath{\tau}}
+\newcommand{\f}{\ensuremath{\phi}}
+
+% misc symbols
+\newcommand{\KL}[2]{\ensuremath{D_{\rm KL}\left(#1 \:\middle\vert\middle\vert\: #2\right)}}
+\renewcommand{\L}{\ensuremath{\mathcal{L}}}
+\renewcommand{\P}{\ensuremath{{\mathcal P}}}
+\renewcommand{\S}{\ensuremath{\mathcal{S}}}
+\renewcommand{\O}{\ensuremath{\mathcal{O}}}
+\newcommand{\C}{\ensuremath{\mathcal{C}}}
+\newcommand{\Q}{\ensuremath{\mathcal{Q}}}
+\newcommand{\V}{\ensuremath{\mathcal{V}}}
+\newcommand{\F}{\ensuremath{\mathcal{F}}}
+\newcommand{\U}{\ensuremath{\mathcal{U}}}
+\newcommand{\E}{\ensuremath{\mathcal{E}}}
+\newcommand{\G}{\ensuremath{\mathcal{G}}}
+\newcommand{\M}{\ensuremath{\mathcal{M}}}
+\newcommand{\N}{\ensuremath{\mathcal{N}}}
+\newcommand{\bs}{\backslash}
+\newcommand{\td}{\tilde}
+
+\newcommand{\indicator}[2]{\ensuremath{\mathbb{I}{[{#1}={#2}]}}}
+\newcommand*{\dom}{\ensuremath{\mathrm{dom}}}
+
